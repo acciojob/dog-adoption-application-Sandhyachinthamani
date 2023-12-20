@@ -7,7 +7,23 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<form>
+		<label for="name">Name</label>
+		<input type="text" id="name" placeholder="Name"><br>
+		<label for="phone">Phone Number</label>
+		<input type="tel" id="phone" placeholder="Phone NUmber"><br>
+		<label for="address">Address</label>
+		<input type="text" id="address" placeholder="Address"><br>
+		<label for="checkbox">Have you ever lived with a Dog before?</label>
+		<input type="checkbox" id="checkbox"><br>
+		<label for="multiselect">Please select your preferred breeds</label>
+		<select>
+			<option>German Shepherd</option>
+			<option>Bulldog</option>
+			<option>Chihuahua</option>
+		</select><br>
+		<button formmethod="post">Submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
